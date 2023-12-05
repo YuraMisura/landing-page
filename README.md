@@ -8,7 +8,7 @@
    - Some functionality implemented with JavaScript.
 
 ## 3. Link to the project:
-  - 
+  - [DEMO LINK](https://yuramisura.github.io/landing-page/)
 
 ## 4. Link to the GitHub:
   - https://github.com/YuraMisura/landing-page
