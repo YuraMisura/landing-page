@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+ul,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus {
+  border: 1px solid #f8f8fa;
+  -webkit-text-fill-color: #7e7e83;
+  -webkit-box-shadow: 0 0 0px 1000px #f8f8fa inset;
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus {
+  border: 1px solid $input-ba-and-border-color;
+  -webkit-text-fill-color: $input-color;
+  -webkit-box-shadow: 0 0 0px 1000px $input-ba-and-border-color inset;
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+textarea::-webkit-scrollbar {
+  width: 20px;
+}
+
+textarea::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+textarea::-webkit-scrollbar-thumb {
+  background: grey;
+  border-radius: 10px;
+
+  &:hover {
+    background: darkgrey;
+  }
+}
