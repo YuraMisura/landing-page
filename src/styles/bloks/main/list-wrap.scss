@@ -20,12 +20,13 @@
     width: 100%;
     line-height: 1.96rem;
     font-weight: 400;
-    border: 1px solid #f8f8fa;
+    border: 1px solid transparent;
     border-radius: 8px;
     background-color: #f8f8fa;
     color: #7e7e83;
     margin-bottom: 32px;
     resize: none;
+    outline: none;
 
     &:hover {
       border-color: #d5d7de;
